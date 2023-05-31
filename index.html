@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./reset.css">
+    <link rel="stylesheet" href="./style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;700&display=swap" rel="stylesheet">
+    <title>Encriptador</title>
+</head>
+<body>
+    <header>
+        <div class="header">
+            <img class="logo_alura" src="./imagenes/Vector.png" alt="logo">
+        </div>
+    </header>
+    <main>
+        <div class="main">
+            <div class="Ingreso_Mensaje">
+                <textarea id="IngresoTexto" class="Ingreso_Texto" cols="30" rows="10" placeholder="Ingrese el texto aquí"></textarea>
+                <div class="ParrafoMensaje">
+                    <span>&#9888; Solo letras minúsculas y sin acentos.</span>  
+                    <div class="botones">
+                        <button id="botonencriptar" class="boton_encriptar">Encriptar</button>
+                        <button id="botondesencriptar" class="boton_desencriptar">Desencriptar</button>
+                    </div>
+                </div>
+            </div>
+            <div id="Obtener_Mensaje" class="Obtener_Mensaje ajustando">
+                <img id="muneco" class="muneco" src="./imagenes/muneco.png" alt="muñeco">
+                <textarea id="mensajeobtenido" class="mensaje_obtenido ajustando" placeholder="Ningún mensaje fue encontrado"></textarea>
+                <p id="texto_informacion" class="texto_informacion">Ingresa el texto que desees encriptar o desencriptar.</p>
+                <button id="botoncopiar" class="boton_copiar ocultado">Copiar</button>
+            </div>
+        </div>
+    </main>
+    <footer>
+        <p class="datos_desarrollador">Desarrollador: <br>Josué Daniel Rojché García</p>
+    </footer>
+    <script src="./logica.js"></script>
+</body>
+</html>
+<!-- 
+    https://www.youtube.com/watch?v=GyvFkpyULpA
+    https://www.youtube.com/watch?v=L7vpZI2R3VU
+    31:12
+    ->
